@@ -7,7 +7,7 @@ from basic_example import BasicExampleBaseClass
 
 class BasicExampleClass(BasicExampleBaseClass):
 
-    async def show_version(self):
+    async def say_hello(self):
         print("Hello from %s", version)
         await asyncio.sleep(self._wait_secs)
         print("Goodbye from %s", version)
